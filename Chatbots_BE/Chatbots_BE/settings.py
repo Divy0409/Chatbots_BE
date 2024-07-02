@@ -20,6 +20,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'ChatBots_FE','build','static'),
 ]
 
+# Ensure CORS headers allow requests from your React frontend
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',  
+]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/

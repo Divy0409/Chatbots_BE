@@ -1,1 +1,1 @@
-from .chatbots import ChatbotViewSet  # Import views from their respective files
+from .chatbots import ChatbotListView  # Import views from their respective files

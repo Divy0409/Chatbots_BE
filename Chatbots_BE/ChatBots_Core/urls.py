@@ -1,10 +1,9 @@
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from .views import ChatbotViewSet
+# ChatBots_Core/urls.py
 
-router = DefaultRouter()
-router.register(r'chatbots', ChatbotViewSet)
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('chatbots/', views.ChatbotListView.as_view(), name='chatbot-list'),
+    # Add more API endpoints as needed
 ]
