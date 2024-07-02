@@ -21,6 +21,7 @@ STATICFILES_DIRS = [
 ]
 
 # Ensure CORS headers allow requests from your React frontend
+CORS_ALLOW_ALL_ORIGINS = False  # Default is False, set to True to allow all origins
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  
 ]
@@ -42,6 +43,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'rest_framework',
     'ChatBots_Core',
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,6 +60,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'Chatbots_BE.urls'
