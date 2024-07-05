@@ -10,19 +10,19 @@
     - You always create a branch from an existing branch. Typically, you might create a new branch from the default branch of your repository and our default branch is “main”. 
 
 * Once you have successfully cloned repository in your system you will be in main branch by default. You can check it in left bottom part of your VS code window as shown in below image.
-![Check Main Branch](https://github.com/Divy0409/Chatbots_BE/DOC_Images/check_branch.png)
+![Check Main Branch](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/check_branch.png)
 * Moreover, it shows the name of the branch that is currently in use. If you are going to click on it there will be a popup as shown in below image and you can choose any other branch to switch from that popup.
-![Branch Options](https://github.com/Divy0409/Chatbots_BE/DOC_Images/branch_options.png)
+![Branch Options](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/branch_options.png)
 
 ## Create a new branch:
 * You can always create a branch using git checkout -b  NEW_BRANCH_NAME command however here is an alternative method:
 * Step - 1 : Click on link below:
 * [Repository Link](https://github.com/Divy0409/Chatbots_BE)
 * Step - 2 : Click on highlighted option (Branches) in below image:
-![Branches](https://github.com/Divy0409/Chatbots_BE/DOC_Images/branches_page.png)
+![Branches](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/branches.png)
 * Step - 3 : Now you will be redirected to branches page as shown in below image then select new branch option and there will be a popup asking you to create a new branch and always make sure that source branch is main (by default it always be main).
-![Branches Page](https://github.com/Divy0409/Chatbots_BE/DOC_Images/branches_page.png)
-![Create Branch Option](https://github.com/Divy0409/Chatbots_BE/DOC_Images/create_branch.png)   
+![Branches Page](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/branches_page.png)
+![Create Branch Option](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/create_branch.png)   
 * This way it will be ensured that you have created new branch without having any issues with main branch. 
 
 ## Changes from other teams:
@@ -30,27 +30,26 @@
 
 * Here is the way to do it using VS code when you are already in main barnch:
 * Step - 1 : Click on the source control:
-![Source Control](https://github.com/Divy0409/Chatbots_BE/DOC_Images/Source_control.png)
+![Source Control](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/Source_control.png)
 * Step - 2 : Then you will be able to see below option in your side panel choose highlighted option:
-![Three Dots](https://github.com/Divy0409/Chatbots_BE/DOC_Images/three_dots.png)  
+![Three Dots](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/three_dots.png)  
 * Step - 3 : Then you will be able to see popup just like shown in below image and select pull option and you are good to go.
-![Pull Option](https://github.com/Divy0409/Chatbots_BE/DOC_Images/pull.png)
+![Pull Option](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/pull.png)
 
 * Now suppose that you are in your working branch and you want to take pull from main branch into your branch or in other words you want to merge changes from main branch into your working branch to keep your working branch up to date follow below steps:
 * Step - 1 : Click on the source control:
-![Source Control](https://github.com/Divy0409/Chatbots_BE/DOC_Images/Source_control.png)
+![Source Control](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/Source_control.png)
 * Step - 2 : Then you will be able to see below option in your side panel choose highlighted option:
-![Three Dots](https://github.com/Divy0409/Chatbots_BE/DOC_Images/three_dots.png)  
+![Three Dots](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/three_dots.png)  
 * Step - 3 : Then you will be able to see popup just like shown in below image and select pull,push option.
-![Pull Option](https://github.com/Divy0409/Chatbots_BE/DOC_Images/pull.png)
+![Pull Option](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/pull.png)
 * Step - 4 : Then you will be able to see popup just like shown in below image and select pull from option.
-![Pull,Push Option](https://github.com/Divy0409/Chatbots_BE/DOC_Images/pull_from.png)
+![Pull,Push Option](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/pull_from.png)
 * Step - 5 : Then there will be another popup just like shown in below image and choose main branch out all branches and you are done.
-![Branch Selection](https://github.com/Divy0409/Chatbots_BE/DOC_Images/branch_select.png)
+![Branch Selection](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/branch_select.png)
 
 ## Above methods are using modern IDE approach however if you want to work with the traditional command line approach:
 ## Branching
-If you are a developer on your team, you must have Jeff Wall give you access to the repository first.
 
 * We will be using branches to work on our coding tasks. These should be treated as short lived branches following the trunk-based repository management approach.  
     - A branch in github allows you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. 
